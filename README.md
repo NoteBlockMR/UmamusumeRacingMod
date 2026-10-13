@@ -1,0 +1,2 @@
+# UmamusumeRacingMod
+UmaMusume Racing Mod
