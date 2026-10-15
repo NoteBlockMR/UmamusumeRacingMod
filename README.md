@@ -24,3 +24,9 @@ This policy governs automated contributions to the official repository. Applicab
 4. Do not install the server-only JAR on the client.
 
 The client package contains rendering, models, music, HUD, and server packet handling. It does not contain Uma Racing administrator command implementations or server configuration storage.
+
+## One-click server connection
+
+After installing the client mod, Minecraft's title screen shows a single `서버 원클릭 접속` button in the upper-right corner. Selecting it connects directly to `play.chzzk.games`. The button is client-only and is not included in the dedicated server JAR.
+
+During a race, the client also renders the participant-only minimap, horse markers, stamina and item HUD, and ranking information supplied by the server. Non-participants do not receive the right-side race minimap or ranking HUD.
